@@ -14,15 +14,16 @@ const Footer = () => {
             <p className="text-gray-600 mt-2 w-[350px]">
               Latin literature from 45 BC, making it over 2000 years old. Richard  McClintock, a Latin professor at <br /> Hampden.
             </p>
-            <div className="flex mt-4">
-             
-              <FaLinkedinIn className="text-gray-600 hover:text-gray-800 mr-4 w-5 h-5"/>
-             
-              
-              <FaSquareInstagram className="text-gray-600 hover:text-gray-800 mr-4 w-5 h-5"/>
-             
-              
-              <FaTwitter className="text-gray-600 hover:text-gray-800 w-5 h-5"/>
+            <div className="flex mt-4 gap-3">
+            <div className="bg-white rounded-full p-2 border-2 border-orange-200">
+        <FaLinkedinIn className="text-sm text-gray-700" />
+      </div>
+      <div className="bg-white rounded-full p-2 border-2 border-orange-200">
+        <FaSquareInstagram className="text-sm text-gray-700" />
+      </div>
+      <div className="bg-white rounded-full p-2 border-2 border-orange-200">
+        <FaTwitter className="text-sm text-gray-700" />
+      </div>
               
             </div>
           </div>
