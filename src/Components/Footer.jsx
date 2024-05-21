@@ -29,76 +29,76 @@ const Footer = () => {
           <div className="w-full lg:w-2/3">
             <div className="flex justify-between">
               <div>
-                <h5 className="text-bodyText  text-xl pb-6 font-bold leading-custom-30 tracking-normal text-left">Support</h5>
+                <h5 className="text-bodyText text-lg 2xl:text-xl pb-6 font-bold leading-custom-30 tracking-normal text-left">Support</h5>
                 <ul>
                   <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Privacy Policy</a>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Privacy Policy</p>
                   </li>
                   <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Terms & Conditions</a>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Terms & Conditions</p>
                   </li>
                   <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Product FAQs</a>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Product FAQs</p>
                   </li>
                   <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Company Support</a>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Company Support</p>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Manage Account</a>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Manage Account</p>
+                  </li>
+                </ul>
+              </div>
+              <div className='mx-1'>
+                <h5 className="text-bodyText text-lg 2xl:text-xl pb-6 font-bold leading-custom-30 tracking-normal text-left">Quick Links</h5>
+                <ul>
+                  <li className="mb-2">
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">About Us</p>
+                  </li>
+                  <li className="mb-2">
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Blog Post</p>
+                  </li>
+                  <li className="mb-2">
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Product Features</p>
+                  </li>
+                  <li className="mb-2">
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Company Info</p>
+                  </li>
+                  <li>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Company Info</p>
                   </li>
                 </ul>
               </div>
               <div>
-                <h5 className="text-bodyText  text-xl pb-6 font-bold leading-custom-30 tracking-normal text-left">Quick Links</h5>
+                <h5 className="text-bodyText text-lg 2xl:text-xl pb-6 font-bold leading-custom-30 tracking-normal text-left">Community</h5>
                 <ul>
                   <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">About Us</a>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Become an Affiliate</p>
                   </li>
                   <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Blog Post</a>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Help Center</p>
                   </li>
                   <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Product Features</a>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Product FAQs</p>
                   </li>
                   <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Company Info</a>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Our Forums</p>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Company Info</a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h5 className="text-bodyText  text-xl pb-6 font-bold leading-custom-30 tracking-normal text-left">Community</h5>
-                <ul>
-                  <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Become an Affiliate</a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Help Center</a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Product FAQs</a>
-                  </li>
-                  <li className="mb-2">
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Our Forums</a>
-                  </li>
-                  <li>
-                    <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Product API</a>
+                    <p  className="text-gray-600 hover:text-gray-800 text-sm  2xl:text-base">Product API</p>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <div className="border-t border-[#FED29C] mt-8 pt-6 flex justify-between text-sm text-gray-500">
+        <div className="border-t border-[#FED29C] mt-8 pt-6 flex justify-between text-sm  2xl:text-base text-gray-500">
           <div>
             &copy; 2023 All rights reserved by EyeGlass.
           </div>
-          <div>
-            <a href="#" className="hover:text-gray-800">Privacy Policy</a>
+          <div className='flex'>
+            <p  className="hover:text-gray-800">Privacy Policy</p>
             <span className="mx-2">|</span>
-            <a href="#" className="hover:text-gray-800">Terms of Service</a>
+            <p  className="hover:text-gray-800">Terms of Service</p>
           </div>
         </div>
       </div>

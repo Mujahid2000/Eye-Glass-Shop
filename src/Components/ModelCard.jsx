@@ -14,7 +14,7 @@ const ModelCard = () => {
                                 <h3 className="text-[#383838] text-[25px] font-bold leading-[35px] tracking-normal text-center">Bravo Sunglasses</h3>
                                 <p id="description" className="text-sm mt-3 font-medium text-gray-600">Up to 80% off on selected item</p>
                             </div>
-                            <button className="bg-[#383838] w-[9.9rem] mt-6 h-[2.7rem] text-white font-bold text-lg rounded-md active:bg-[#121111]">Buy Now</button>
+                            <button className="bg-[#383838] px-10 mt-6 py-3 text-white font-bold text-lg rounded-md active:bg-[#121111]">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@ const ModelCard = () => {
                                 <h3 className="text-[#383838] text-[25px] font-bold leading-[35px] tracking-normal text-center">John Jacobs</h3>
                                 <p id="description" className="text-sm mt-3 font-medium text-gray-600">Up to 40% off on selected item</p>
                             </div>
-                            <button className="bg-[#383838] w-[9.9rem] mt-6 h-[2.7rem] text-white font-bold text-lg rounded-md active:bg-[#121111]">Buy Now</button>
+                            <button className="bg-[#383838] px-10 mt-6 py-3 text-white font-bold text-lg rounded-md active:bg-[#121111]">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ const ModelCard = () => {
                                 <h3 className="text-[#383838] text-[25px] font-bold leading-[35px] tracking-normal text-center">Tommy Hilfiger</h3>
                                 <p id="description" className="text-sm mt-3 font-medium text-gray-600">Up to 30% off on selected item</p>
                             </div>
-                            <button className="bg-[#383838] w-[9.9rem] mt-6 h-[2.7rem] text-white font-bold text-lg rounded-md active:bg-[#121111]">Buy Now</button>
+                            <button className="bg-[#383838] px-10 mt-6 py-3 text-white font-bold text-lg rounded-md active:bg-[#121111]">Buy Now</button>
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@ const ModelCard = () => {
                                 <h3 className="text-[#383838] text-[25px] font-bold leading-[35px] tracking-normal text-center">Bravo Sunglasses</h3>
                                 <p id="description" className="text-sm mt-3 font-medium text-gray-600">Up to 10% off on selected item</p>
                             </div>
-                            <button className="bg-[#383838] w-[9.9rem] mt-6 h-[2.7rem] text-white font-bold text-lg rounded-md active:bg-[#121111]">Buy Now</button>
+                            <button className="bg-[#383838] px-10 mt-6 py-3 text-white font-bold text-lg rounded-md active:bg-[#121111]">Buy Now</button>
                         </div>
                     </div>
                 </div>
