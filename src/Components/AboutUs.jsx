@@ -18,7 +18,7 @@ const AboutUs = () => {
         </button>
       </div>
       <div className="md:w-1/2 h-[613px]">
-        <img src="https://i.ibb.co/rGxVsWc/reflectr-Image.png" alt="OptiChroma Vision Frames" className="w-full md:h-[38.3rem] 2xl:h-[38.3rem] " />
+        <img src="https://i.ibb.co/rGxVsWc/reflectr-Image.png" alt="OptiChroma Vision Frames" className="w-full h-[20rem] md:h-[38.3rem] 2xl:h-[38.3rem] " />
       </div>
     </div>
     );
