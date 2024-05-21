@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="w-full lg:w-2/3">
-            <div className="flex justify-between">
+            <div className="flex justify-between md:justify-between lg:justify-evenly xl:justify-evenly 2xl:justify-evenly">
               <div>
                 <h5 className="text-bodyText text-lg 2xl:text-xl pb-6 font-bold leading-custom-30 tracking-normal text-left">Support</h5>
                 <ul>
@@ -91,13 +91,13 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="border-t border-[#FED29C] mt-8 pt-6 flex justify-between text-sm  2xl:text-base text-gray-500">
+        <div className="border-t border-[#FED29C] mt-8 pt-6 flex justify-between gap-2 text-sm  2xl:text-base text-gray-500">
           <div>
-            &copy; 2023 All rights reserved by EyeGlass.
+          Copyright  &copy; 2023 All rights reserved by EyeGlass.
           </div>
-          <div className='flex'>
+          <div className='flex gap-6'>
             <p  className="hover:text-gray-800">Privacy Policy</p>
-            <span className="mx-2">|</span>
+          
             <p  className="hover:text-gray-800">Terms of Service</p>
           </div>
         </div>
