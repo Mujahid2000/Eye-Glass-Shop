@@ -13,12 +13,12 @@ const AboutUs = () => {
         <p className="text-lg text-[#383838] mx-auto max-w-lg mb-8">
           Our team of experts is dedicated to helping you find the perfect pair of glasses.
         </p>
-        <button className="bg-[#383838] 2xl:ml-[12.7rem] text-white font-bold py-2 px-6 rounded">
+        <button className="bg-[#383838] xl:ml-[5.5rem] 2xl:ml-[12.7rem] text-white font-bold py-2 px-6 rounded">
           About Us
         </button>
       </div>
       <div className="md:w-1/2 h-[613px]">
-        <img src="https://i.ibb.co/rGxVsWc/reflectr-Image.png" alt="OptiChroma Vision Frames" className="w-full max-h-[38.3rem] " />
+        <img src="https://i.ibb.co/rGxVsWc/reflectr-Image.png" alt="OptiChroma Vision Frames" className="w-full md:h-[38.3rem] 2xl:h-[38.3rem] " />
       </div>
     </div>
     );
