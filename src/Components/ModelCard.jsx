@@ -41,10 +41,10 @@ const ModelCard = () => {
            </div>
             
             {/* card 4 */}
-            <div className="">
+            <div className="lg:mt-[2.2rem]">
                 {/* card 2 */}
-            <div>
-                <div className="relative max-w-[643px] max-h-[509px] my-9 mt-[13rem] md:mt-[2.5rem] lg:mt-0 xl:mt-0 2xl:mt-0">
+            <div >
+                <div className="relative max-w-[643px] max-h-[509px] my-9 mt-[13rem] md:mt-[2.3rem] lg:mt-0 xl:mt-0 2xl:mt-0">
                 <img src="https://i.ibb.co/1vLgBRN/Image-9.png" alt="" className="relative"/>
                 <div className="absolute inset-0 flex  justify-center">
                     <div className="w-[30rem] h-[14rem] mt-[17rem] md:mt-[18rem] lg:mt-[24rem] xl:mt-[15rem] 2xl:mt-[15.5rem] bg-white shadow-lg rounded-lg overflow-hidden z-30">
@@ -60,7 +60,7 @@ const ModelCard = () => {
                 </div>
             </div>
 
-                <div className="relative max-w-[643px] max-h-[633px] mt-[16rem] md:mt-[17rem] lg:mt-[18rem] xl:mt-0 2xl:mt-0">
+                <div className="relative max-w-[643px] max-h-[633px] mt-[16rem] md:mt-[16.8rem] lg:mt-[17.5rem] xl:mt-0 2xl:mt-0">
                 <img src="https://i.ibb.co/WvqwMLf/Image-4.png" alt="" className="relative"/>
                 <div className="absolute inset-0 flex  justify-center">
                     <div className="w-[30rem] h-[14rem] mt-[22rem] md:mt-[21rem] lg:mt-[30rem] xl:mt-[23rem] 2xl:mt-[23rem] bg-white shadow-lg rounded-lg overflow-hidden z-30">
