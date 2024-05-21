@@ -1,34 +1,35 @@
-import React from 'react';
-import {  FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+
+import {   FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaSquareInstagram } from 'react-icons/fa6';
 
 const Footer = () => {
     return (
         <div>
            
-           <footer className="bg-gray-50 py-10 mt-16 ">
+           <footer className="bg-white py-10 mt-16 ">
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap justify-between">
           <div className="w-full lg:w-1/3 mb-6 lg:mb-0">
-            <img src="https://i.ibb.co/c1bgpy9/EyeGlass.png" alt="" className='w-36' />
+            <img src="https://i.ibb.co/c1bgpy9/EyeGlass.png" alt="" className='w-36 pb-6' />
             <p className="text-gray-600 mt-2 w-[350px]">
               Latin literature from 45 BC, making it over 2000 years old. Richard  McClintock, a Latin professor at <br /> Hampden.
             </p>
             <div className="flex mt-4">
-              <a href="#" className="text-gray-600 hover:text-gray-800 mr-4">
-                <i className="fab fa-linkedin fa-2x"></i>
-              </a>
-              <a href="#" className="text-gray-600 hover:text-gray-800 mr-4">
-                <i className="fab fa-instagram fa-2x"></i>
-              </a>
-              <a href="#" className="text-gray-600 hover:text-gray-800">
-                <i className="fab fa-twitter fa-2x"></i>
-              </a>
+             
+              <FaLinkedinIn className="text-gray-600 hover:text-gray-800 mr-4 w-5 h-5"/>
+             
+              
+              <FaSquareInstagram className="text-gray-600 hover:text-gray-800 mr-4 w-5 h-5"/>
+             
+              
+              <FaTwitter className="text-gray-600 hover:text-gray-800 w-5 h-5"/>
+              
             </div>
           </div>
           <div className="w-full lg:w-2/3">
             <div className="flex justify-between">
               <div>
-                <h5 className="text-gray-500 text-sm font-semibold mb-2">Support</h5>
+                <h5 className="text-bodyText  text-xl pb-6 font-bold leading-custom-30 tracking-normal text-left">Support</h5>
                 <ul>
                   <li className="mb-2">
                     <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Privacy Policy</a>
@@ -48,7 +49,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <h5 className="text-gray-500 text-sm font-semibold mb-2">Quick Links</h5>
+                <h5 className="text-bodyText  text-xl pb-6 font-bold leading-custom-30 tracking-normal text-left">Quick Links</h5>
                 <ul>
                   <li className="mb-2">
                     <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">About Us</a>
@@ -68,7 +69,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div>
-                <h5 className="text-gray-500 text-sm font-semibold mb-2">Community</h5>
+                <h5 className="text-bodyText  text-xl pb-6 font-bold leading-custom-30 tracking-normal text-left">Community</h5>
                 <ul>
                   <li className="mb-2">
                     <a href="#" className="text-gray-600 hover:text-gray-800 text-sm">Become an Affiliate</a>

@@ -24,21 +24,19 @@ const ProductCard = () => {
     
 
     return (
-        <div className='max-w-[90rem] mx-auto mt-9'>
+        <div className='max-w-[95rem] mx-auto 2xl:mt-9'>
             <div>
                 <h2 className='text-[rgb(56,56,56)]  text-[38px] font-bold leading-[48px] pl-4 tracking-normal text-left'>Our Products</h2>
-                <div className='flex justify-between flex-col md:flex-row pr-9 mt-2'>
-                <p className='text-customGray font-jost text-base font-normal leading-6 pl-5 tracking-normal text-left'>Experience crystal clear vision and elevated style with our premium collection of eyeglasses.</p>
-               
-<div className="flex items-center justify-evenly gap-6 mt-5 ">
-	
-<button className="bg-transparent text-base text-gray-700 font-semibold py-2 hover:-mb-1 px-4 rounded hover:text-gray-500 hover:border-gray-500 hover:border">
+                <div className='flex justify-between items-center flex-col md:flex-row pr-[6.25rem;] 2xl:pr-9 mt-2'>
+                <p className='text-customGray  text-base font-normal leading-6 pl-5 tracking-normal text-left'>Experience crystal clear vision and brelevated style with our <br /> premium collection of eyeglasses.</p>
+    <div className="flex items-start justify-evenly  mt-5 ">
+      <button className="bg-transparent text-base text-gray-700 font-semibold py-2 hover:-mb-1 px-4 rounded hover:text-gray-500 hover:border-gray-500 hover:border">
         Latest
       </button>
       <button className="bg-transparent text-base text-gray-700 font-semibold py-2 hover:-mb-1 px-4 rounded hover:text-gray-500 hover:border-gray-500 hover:border">
         Special
       </button>
-      <button className="bg-transparent text-base text-gray-700 font-semibold py-2 hover:-mb-1 px-4 rounded hover:text-gray-500 hover:border-gray-500 hover:border">
+      <button className="bg-transparent text-base text-gray-700 font-semibold py-2 hover:-mb-1 px-0 rounded hover:text-gray-500 hover:border-gray-500 hover:border">
         Best Sell
       </button>
    
