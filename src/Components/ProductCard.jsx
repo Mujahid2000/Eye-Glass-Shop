@@ -54,7 +54,7 @@ const ProductCard = () => {
                     <button className="flex items-center justify-center w-12 h-12 border-2 border-gray-400 rounded-full hover:border-gray-600 hover:text-gray-600 focus:outline-none"><FaRegHeart className="text-gray-400" size={24}/> </button>
                     </div>
                 </div>
-            <img src={product.image} alt="" className='max-h-[22rem]'/>
+            <img src={product.image} alt="" className='max-h-[15rem]'/>
             <div className='flex justify-center pb-7 mt-20'>
             <GoDotFill className='w-6 h-6 text-[#ED770D]'/>
             <GoDotFill className='w-6 h-6 text-[#383838] '/>
