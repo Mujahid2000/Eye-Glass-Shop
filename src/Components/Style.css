@@ -22,8 +22,6 @@
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    
-  
     /* Center slide text vertically */
     display: flex;
     justify-content: center;
@@ -34,8 +32,19 @@
     display: block;
     height: 48rem;
     object-fit: cover;
-    margin-left: 150px;
+    margin-left: 300px;
     margin-top: 190px;
     
   }
-  
+
+
+  @media (min-width: 1440px) {
+    .swiper-slide img {
+      display: block;
+      height: 38rem;
+      object-fit: cover;
+      margin-left: 300px;
+      margin-top: 120px;
+      
+    }
+  }

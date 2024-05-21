@@ -2,7 +2,7 @@ import { GiSunglasses } from "react-icons/gi";
 
 const Stats = () => {
     return (
-        <div className="px-3 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 mx-auto max-w-[110rem] place-items-start 2xl:place-items-center -mt-20 gap-4">
+        <div className="px-3 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4 mx-auto max-w-[110rem] place-items-center 2xl:place-items-center -mt-20 gap-4">
             {/* 1 */}
             <div className="z-30">
             <div className="w-32 h-32 rounded-full bg-[#FED29C] z-30 flex  items-center justify-center">
