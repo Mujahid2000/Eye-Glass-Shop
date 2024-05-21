@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import { FaUser } from 'react-icons/fa';
+import { HiShoppingCart } from 'react-icons/hi';
 import { IoMdCart, IoMdClose, IoMdMenu } from 'react-icons/io';
 import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const [open, setOpen] = useState(false);
+    const [product, setProduct] = useState([])
     let Links = [
         {name: 'Home', link: '/', id: 1},
         {name: 'About Us', link: '/shop', id: 2},
@@ -14,6 +17,13 @@ const Navbar = () => {
         {name: 'Contact Us', link: '/contactUs', id:6},
         
     ]
+
+    useEffect(() =>{
+        axios.get('https://eye-server.vercel.app/addCart')
+        .then(res => setProduct(res.data))
+        .catch(error => console.error(error))
+    },[product])
+
     return (
         <div className="shadow-md w-full fixed top-0 left-0 z-50">
             <div className="flex  md:flex justify-between items-center bg-white py-4 md:px-5 px-7">
@@ -38,8 +48,13 @@ const Navbar = () => {
                 </ul>
 
                 <div className='flex mr-16 md:mr-0 lg:mr-0 xl:mr-0 2xl:mr-0 gap-3'>
-                <IoMdCart className='w-6  h-6 cursor-pointer'/>
-                <FaUser className='w-5 h-5 cursor-pointer'/>
+                <div className="flex  items-center justify-center bg-white">
+      <div className="relative scale-75">
+        <HiShoppingCart className="h-8 w-8 text-black" />
+        <span className="absolute -top-2 left-4 rounded-full bg-red-500 p-0.5 px-2 text-sm text-red-50">{product.length}</span>
+      </div>
+    </div>
+                <FaUser className='w-6 h-6 cursor-pointer'/>
                 </div>
             </div>
         </div>

@@ -1,6 +1,8 @@
 
+import axios from 'axios';
 import {  FaRegHeart } from 'react-icons/fa';
 import { GoDotFill } from 'react-icons/go';
+import { Toaster, toast } from 'sonner';
 
 const ProductCard = () => {
 
@@ -12,6 +14,13 @@ const ProductCard = () => {
         { id: 5, name: 'Ray Ban', price: '$100', originalPrice: '$150', image: 'https://i.ibb.co/7CFkcYx/Image-10.png' ,discount: '10%'},
         { id: 6, name: 'Occhiali', price: '$110', originalPrice: '$150', image: 'https://i.ibb.co/L0S9YRz/Image-6.png', discount: '10%' },
       ];
+
+
+      const handleCart = (cart) =>{
+        axios.post('https://eye-server.vercel.app/addCart', cart)
+        .then((response) => console.log(response));
+        toast.success("Item added to cart!")
+      }
     
 
     return (
@@ -61,11 +70,19 @@ const ProductCard = () => {
                 <p className='text-base md:text-[20px] leading-[30px] text-[rgb(56,56,56)] font-jost font-bold tracking-normal text-left'>{product.originalPrice}</p>
                 <p className='text-base md:text-[20px] text-customGray font-jost text-custom font-normal tracking-normal text-left line-through'>{product.price}</p>
             </div>
-            <button className='text-customGray90 font-jost text-[20px] font-normal leading-[29px] mt-5 tracking-normal text-left underline'>Add To Cart</button>
+            <button onClick={() =>handleCart(product)} className='text-customGray90 font-jost text-[20px] font-normal leading-[29px] mt-5 tracking-normal text-left underline'>Add To Cart</button>
           </div>
         ))}
       </div>
     </div>
+    <Toaster
+        position="bottom-right"
+        toastOptions={{
+          classNames: {
+            success: "text-green-400",
+          },
+        }}
+      />
         </div>
     );
 };
