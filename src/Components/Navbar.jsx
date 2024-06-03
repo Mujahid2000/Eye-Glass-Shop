@@ -19,7 +19,7 @@ const Navbar = () => {
     ]
 
     useEffect(() =>{
-        axios.get('https://eye-server.vercel.app/addCart')
+        axios.get('https://eye-server-my-sql.vercel.app/addCart')
         .then(res => setProduct(res.data))
         .catch(error => console.error(error))
     },[product])

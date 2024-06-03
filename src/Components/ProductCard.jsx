@@ -17,7 +17,7 @@ const ProductCard = () => {
 
 
       const handleCart = (cart) =>{
-        axios.post('https://eye-server.vercel.app/addCart', cart)
+        axios.post('https://eye-server-my-sql.vercel.app/addCart', cart)
         .then((response) => console.log(response));
         toast.success("Item added to cart!")
       }
